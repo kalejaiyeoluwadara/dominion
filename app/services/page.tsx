@@ -60,9 +60,6 @@ export default function ServicesPage() {
               </div>
               <div className="p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="bg-blue-100 p-3 rounded-lg">
-                    <Home className="text-blue-600" size={32} />
-                  </div>
                   <h2 className="text-3xl font-bold">Residential Cleaning</h2>
                 </div>
                 <p className="text-gray-600 mb-6">
@@ -140,9 +137,7 @@ export default function ServicesPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="order-2 md:order-1 p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="bg-blue-100 p-3 rounded-lg">
-                    <Building2 className="text-blue-600" size={32} />
-                  </div>
+                
                   <h2 className="text-3xl font-bold">Commercial Cleaning</h2>
                 </div>
                 <p className="text-gray-600 mb-6">
@@ -236,9 +231,6 @@ export default function ServicesPage() {
               </div>
               <div className="p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="bg-blue-100 p-3 rounded-lg">
-                    <Sparkles className="text-blue-600" size={32} />
-                  </div>
                   <h2 className="text-3xl font-bold">Deep Cleaning</h2>
                 </div>
                 <p className="text-gray-600 mb-6">
@@ -324,7 +316,6 @@ export default function ServicesPage() {
                 />
               </div>
               <div className="flex items-center gap-3 mb-3">
-                <MoveRight className="text-blue-600" size={24} />
                 <h3 className="text-2xl font-bold">Move In/Out Cleaning</h3>
               </div>
               <p className="text-gray-600 mb-4">
@@ -375,7 +366,6 @@ export default function ServicesPage() {
                 />
               </div>
               <div className="flex items-center gap-3 mb-3">
-                <Scissors className="text-blue-600" size={24} />
                 <h3 className="text-2xl font-bold">Carpet & Upholstery</h3>
               </div>
               <p className="text-gray-600 mb-4">
@@ -419,14 +409,13 @@ export default function ServicesPage() {
             <div className="bg-white rounded-lg shadow-lg p-6">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?q=80&w=2070"
+                  src="https://images.unsplash.com/photo-1581578949510-fa7315c4c350?q=80&w=2070"
                   alt="Window cleaning"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="flex items-center gap-3 mb-3">
-                <Wind className="text-blue-600" size={24} />
                 <h3 className="text-2xl font-bold">Window Cleaning</h3>
               </div>
               <p className="text-gray-600 mb-4">
