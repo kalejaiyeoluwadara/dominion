@@ -114,13 +114,6 @@ export default function ServicesPage() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 p-4 rounded-lg mb-6">
-                  <p className="font-semibold mb-2">Starting from £25/hour</p>
-                  <p className="text-sm text-gray-600">
-                    Flexible scheduling: Weekly, bi-weekly, or one-time cleaning
-                  </p>
-                </div>
-
                 <Link
                   href="/booking"
                   className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition inline-flex items-center gap-2"
@@ -283,14 +276,6 @@ export default function ServicesPage() {
                     <span>Detailed bathroom sanitization</span>
                   </div>
                 </div>
-
-                <div className="bg-blue-50 p-4 rounded-lg mb-6">
-                  <p className="font-semibold mb-2">Starting from £150</p>
-                  <p className="text-sm text-gray-600">
-                    Perfect for spring cleaning or preparing for special events
-                  </p>
-                </div>
-
                 <Link
                   href="/booking"
                   className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition inline-flex items-center gap-2"
@@ -344,7 +329,6 @@ export default function ServicesPage() {
                   <span className="text-sm">Customized service plans</span>
                 </li>
               </ul>
-              <p className="text-blue-600 font-semibold mb-4">From £25/hour</p>
               <Link
                 href="/booking"
                 className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
@@ -394,7 +378,6 @@ export default function ServicesPage() {
                   <span className="text-sm">Bathroom & kitchen cleaning</span>
                 </li>
               </ul>
-              <p className="text-blue-600 font-semibold mb-4">From £20/hour</p>
               <Link
                 href="/booking"
                 className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
@@ -444,7 +427,6 @@ export default function ServicesPage() {
                   <span className="text-sm">Deposit return guarantee</span>
                 </li>
               </ul>
-              <p className="text-blue-600 font-semibold mb-4">From £200</p>
               <Link
                 href="/booking"
                 className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
@@ -698,7 +680,6 @@ export default function ServicesPage() {
                   <span className="text-sm">Odor elimination</span>
                 </li>
               </ul>
-              <p className="text-blue-600 font-semibold mb-4">From £50/item</p>
               <Link
                 href="/booking"
                 className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
@@ -748,7 +729,6 @@ export default function ServicesPage() {
                   <span className="text-sm">Seasonal maintenance</span>
                 </li>
               </ul>
-              <p className="text-blue-600 font-semibold mb-4">From £30/hour</p>
               <Link
                 href="/booking"
                 className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
