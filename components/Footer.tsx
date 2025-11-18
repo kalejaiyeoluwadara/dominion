@@ -114,16 +114,16 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <Phone size={20} />
                 <a href="tel:+441234567890" className="hover:text-blue-400">
-                  +44 1234 567890
+                  +44 78026682398
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={20} />
                 <a
-                  href="mailto:info@dominioncleaning.co.uk"
+                  href="mailto:admin@dominiondeepcleaning.com"
                   className="hover:text-blue-400"
                 >
-                  info@dominioncleaning.co.uk
+                  admin@dominiondeepcleaning.com
                 </a>
               </li>
             </ul>

@@ -137,7 +137,6 @@ export default function ServicesPage() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="order-2 md:order-1 p-8">
                 <div className="flex items-center gap-3 mb-4">
-                
                   <h2 className="text-3xl font-bold">Commercial Cleaning</h2>
                 </div>
                 <p className="text-gray-600 mb-6">
@@ -304,19 +303,119 @@ export default function ServicesPage() {
           </div>
 
           {/* Additional Services Grid */}
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Move In/Out */}
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            {/* Domestic Cleaning */}
             <div className="bg-white rounded-lg shadow-lg p-6">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070"
-                  alt="Move in/out cleaning"
+                  src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?q=80&w=2070"
+                  alt="Domestic cleaning"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="flex items-center gap-3 mb-3">
-                <h3 className="text-2xl font-bold">Move In/Out Cleaning</h3>
+                <h3 className="text-2xl font-bold">Domestic Cleaning</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Professional cleaning services for your home. Regular or
+                one-time cleaning tailored to your schedule and needs.
+              </p>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Regular maintenance cleaning</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Flexible scheduling</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Customized service plans</span>
+                </li>
+              </ul>
+              <p className="text-blue-600 font-semibold mb-4">From £25/hour</p>
+              <Link
+                href="/booking"
+                className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
+              >
+                Book Now
+                <ArrowRight size={18} />
+              </Link>
+            </div>
+
+            {/* Standard Cleaning */}
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1563453392212-326f5e854473?q=80&w=2070"
+                  alt="Standard cleaning"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex items-center gap-3 mb-3">
+                <h3 className="text-2xl font-bold">Standard Cleaning</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Essential cleaning services covering all basic areas of your
+                property. Perfect for regular maintenance.
+              </p>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Surface cleaning</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Floor care</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Bathroom & kitchen cleaning</span>
+                </li>
+              </ul>
+              <p className="text-blue-600 font-semibold mb-4">From £20/hour</p>
+              <Link
+                href="/booking"
+                className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
+              >
+                Book Now
+                <ArrowRight size={18} />
+              </Link>
+            </div>
+
+            {/* End of Tenancy Cleaning */}
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070"
+                  alt="End of tenancy cleaning"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex items-center gap-3 mb-3">
+                <h3 className="text-2xl font-bold">End of Tenancy Cleaning</h3>
               </div>
               <p className="text-gray-600 mb-4">
                 Ensure your property is spotless for the next occupant or ready
@@ -355,22 +454,22 @@ export default function ServicesPage() {
               </Link>
             </div>
 
-            {/* Carpet Cleaning */}
+            {/* Warehouse Cleaning */}
             <div className="bg-white rounded-lg shadow-lg p-6">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2069"
-                  alt="Carpet cleaning"
+                  src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070"
+                  alt="Warehouse cleaning"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="flex items-center gap-3 mb-3">
-                <h3 className="text-2xl font-bold">Carpet & Upholstery</h3>
+                <h3 className="text-2xl font-bold">Warehouse Cleaning</h3>
               </div>
               <p className="text-gray-600 mb-4">
-                Professional steam cleaning for carpets, rugs, and upholstery.
-                Remove stains, odors, and allergens effectively.
+                Specialized cleaning services for warehouses and industrial
+                spaces. Keep your facility clean and safe for operations.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-start gap-2">
@@ -378,24 +477,228 @@ export default function ServicesPage() {
                     className="text-green-500 flex-shrink-0 mt-1"
                     size={16}
                   />
-                  <span className="text-sm">Hot water extraction</span>
+                  <span className="text-sm">Floor sweeping & scrubbing</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle
                     className="text-green-500 flex-shrink-0 mt-1"
                     size={16}
                   />
-                  <span className="text-sm">Stain treatment</span>
+                  <span className="text-sm">Equipment cleaning</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle
                     className="text-green-500 flex-shrink-0 mt-1"
                     size={16}
                   />
-                  <span className="text-sm">Fast drying technology</span>
+                  <span className="text-sm">Waste management</span>
                 </li>
               </ul>
-              <p className="text-blue-600 font-semibold mb-4">From £50/room</p>
+              <p className="text-blue-600 font-semibold mb-4">Custom Quote</p>
+              <Link
+                href="/booking"
+                className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
+              >
+                Get Quote
+                <ArrowRight size={18} />
+              </Link>
+            </div>
+
+            {/* Nursing Home Cleaning */}
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?q=80&w=2070"
+                  alt="Nursing home cleaning"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex items-center gap-3 mb-3">
+                <h3 className="text-2xl font-bold">Nursing Home Cleaning</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Specialized cleaning services for healthcare facilities.
+                Maintaining the highest standards of hygiene and sanitation.
+              </p>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Sanitization & disinfection</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Medical-grade cleaning</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">
+                    Compliance with health standards
+                  </span>
+                </li>
+              </ul>
+              <p className="text-blue-600 font-semibold mb-4">Custom Quote</p>
+              <Link
+                href="/booking"
+                className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
+              >
+                Get Quote
+                <ArrowRight size={18} />
+              </Link>
+            </div>
+
+            {/* Housing Association-Communal Cleaning */}
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1563453392212-326f5e854473?q=80&w=2070"
+                  alt="Communal cleaning"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex items-center gap-3 mb-3">
+                <h3 className="text-2xl font-bold">
+                  Housing Association-Communal Cleaning
+                </h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Regular cleaning services for shared spaces, corridors, and
+                common areas in housing associations and apartment buildings.
+              </p>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Corridor & hallway cleaning</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Lift & stairwell maintenance</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Reception & common areas</span>
+                </li>
+              </ul>
+              <p className="text-blue-600 font-semibold mb-4">Custom Quote</p>
+              <Link
+                href="/booking"
+                className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
+              >
+                Get Quote
+                <ArrowRight size={18} />
+              </Link>
+            </div>
+
+            {/* School Cleaning */}
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070"
+                  alt="School cleaning"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex items-center gap-3 mb-3">
+                <h3 className="text-2xl font-bold">School Cleaning</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Comprehensive cleaning services for educational facilities.
+                Creating a clean and healthy environment for students and staff.
+              </p>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Classroom cleaning</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Restroom sanitization</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Cafeteria & common areas</span>
+                </li>
+              </ul>
+              <p className="text-blue-600 font-semibold mb-4">Custom Quote</p>
+              <Link
+                href="/booking"
+                className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
+              >
+                Get Quote
+                <ArrowRight size={18} />
+              </Link>
+            </div>
+
+            {/* Rug Cleaning */}
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2069"
+                  alt="Rug cleaning"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex items-center gap-3 mb-3">
+                <h3 className="text-2xl font-bold">Rug Cleaning</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Professional cleaning for rugs and carpets. Remove stains,
+                odors, and allergens with our specialized rug cleaning service.
+              </p>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Deep steam cleaning</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Stain removal treatment</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle
+                    className="text-green-500 flex-shrink-0 mt-1"
+                    size={16}
+                  />
+                  <span className="text-sm">Odor elimination</span>
+                </li>
+              </ul>
+              <p className="text-blue-600 font-semibold mb-4">From £50/item</p>
               <Link
                 href="/booking"
                 className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"
@@ -405,22 +708,22 @@ export default function ServicesPage() {
               </Link>
             </div>
 
-            {/* Window Cleaning */}
+            {/* Gardening */}
             <div className="bg-white rounded-lg shadow-lg p-6">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1581578949510-fa7315c4c350?q=80&w=2070"
-                  alt="Window cleaning"
+                  src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=2070"
+                  alt="Gardening service"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="flex items-center gap-3 mb-3">
-                <h3 className="text-2xl font-bold">Window Cleaning</h3>
+                <h3 className="text-2xl font-bold">Gardening</h3>
               </div>
               <p className="text-gray-600 mb-4">
-                Crystal clear windows inside and out. We handle residential and
-                commercial properties of all sizes safely and efficiently.
+                Professional gardening and landscaping services to keep your
+                outdoor spaces beautiful and well-maintained.
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-start gap-2">
@@ -428,24 +731,24 @@ export default function ServicesPage() {
                     className="text-green-500 flex-shrink-0 mt-1"
                     size={16}
                   />
-                  <span className="text-sm">Interior & exterior cleaning</span>
+                  <span className="text-sm">Lawn mowing & trimming</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle
                     className="text-green-500 flex-shrink-0 mt-1"
                     size={16}
                   />
-                  <span className="text-sm">Screen & frame cleaning</span>
+                  <span className="text-sm">Weed removal & pruning</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle
                     className="text-green-500 flex-shrink-0 mt-1"
                     size={16}
                   />
-                  <span className="text-sm">Streak-free results</span>
+                  <span className="text-sm">Seasonal maintenance</span>
                 </li>
               </ul>
-              <p className="text-blue-600 font-semibold mb-4">From £30</p>
+              <p className="text-blue-600 font-semibold mb-4">From £30/hour</p>
               <Link
                 href="/booking"
                 className="text-blue-600 font-semibold hover:text-blue-700 flex items-center gap-2"

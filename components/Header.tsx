@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
-  { href: "/testimonials", label: "Testimonials" },
+  // { href: "/testimonials", label: "Testimonials" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -28,19 +28,23 @@ export default function Header() {
                 className="flex items-center text-xs md:text-sm gap-1 hover:text-blue-200"
               >
                 <Phone size={16} />
-                <span>+44 1234 567890</span>
+                <span>+44 78026682398</span>
               </Link>
               <Link
-                href="mailto:info@dominioncleaning.co.uk"
+                href="mailto:admin@dominiondeepcleaning.com"
                 className="flex items-center text-sm gap-1 hover:text-blue-200"
               >
                 <Mail size={14} />
-                <span className="text-xs md:text-sm">info@dominioncleaning.co.uk</span>
+                <span className="text-xs md:text-sm">
+                  admin@dominiondeepcleaning.com
+                </span>
               </Link>
             </div>
             <div className="flex items-center gap-1">
               <Clock size={14} />
-              <span className="text-xs md:text-sm">Mon - Sat: 8:00 AM - 8:00 PM</span>
+              <span className="text-xs md:text-sm">
+                Mon - Sat: 8:00 AM - 8:00 PM
+              </span>
             </div>
           </div>
         </div>
@@ -49,7 +53,10 @@ export default function Header() {
       {/* Main Navigation */}
       <nav className="container mx-auto px-4 md:px-12 py-4">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-base md:text-2xl font-bold text-blue-900">
+          <Link
+            href="/"
+            className="text-base md:text-2xl font-bold text-blue-900"
+          >
             Dominion Cleaning Agency
           </Link>
 

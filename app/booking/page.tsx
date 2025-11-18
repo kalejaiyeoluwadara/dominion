@@ -164,7 +164,7 @@ export default function BookingPage() {
                           onChange={handleChange}
                           required
                           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                          placeholder="+44 1234 567890"
+                          placeholder="+44 78026682398"
                         />
                       </div>
                       <div>
@@ -407,7 +407,7 @@ export default function BookingPage() {
                     className="flex items-center gap-3 text-gray-700 hover:text-blue-600"
                   >
                     <Phone size={20} className="text-blue-600" />
-                    <span>+44 1234 567890</span>
+                    <span>+44 78026682398</span>
                   </a>
                   <a
                     href="mailto:bookings@dominioncleaning.co.uk"
