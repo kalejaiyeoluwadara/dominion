@@ -43,7 +43,7 @@ export default function Header() {
             <div className="flex items-center gap-1">
               <Clock size={14} />
               <span className="text-xs md:text-sm">
-                Mon - Sat: 8:00 AM - 8:00 PM
+                Mon - Fri: 8:30 AM - 5:00 PM
               </span>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function Header() {
             href="/"
             className="text-base md:text-2xl font-bold text-blue-900"
           >
-            Dominion Cleaning Agency
+            DCA
           </Link>
 
           {/* Desktop Menu */}

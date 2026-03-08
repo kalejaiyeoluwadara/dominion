@@ -107,10 +107,6 @@ export default function Footer() {
               Contact Us
             </h4>
             <ul className="space-y-3">
-              <li className="flex items-start gap-2">
-                <MapPin size={20} className="flex-shrink-0 mt-1" />
-                <span>12 Regent Street, London SW1Y 4PE, UK</span>
-              </li>
               <li className="flex items-center gap-2">
                 <Phone size={20} />
                 <a href="tel:+441234567890" className="hover:text-blue-400">
