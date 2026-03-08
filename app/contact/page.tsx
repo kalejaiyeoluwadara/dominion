@@ -18,7 +18,7 @@ export default function ContactPage() {
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
+    >,
   ) => {
     setFormData({
       ...formData,
@@ -82,7 +82,7 @@ export default function ContactPage() {
                         href="tel:+441234567890"
                         className="text-gray-600 hover:text-blue-600"
                       >
-                        +44 78026682398
+                        +44 7368524036
                       </a>
                       <p className="text-sm text-gray-500 mt-1">
                         Mon - Sat: 8AM - 8PM
@@ -212,7 +212,7 @@ export default function ContactPage() {
                           value={formData.phone}
                           onChange={handleChange}
                           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                          placeholder="+44 78026682398"
+                          placeholder="+44 7368524036"
                         />
                       </div>
 
@@ -296,7 +296,7 @@ export default function ContactPage() {
               <h3 className="font-bold text-lg mb-2">How do I get a quote?</h3>
               <p className="text-gray-600">
                 You can request a free quote by filling out our booking form,
-                calling us at +44 78026682398, or sending us an email. We'll get
+                calling us at +44 7368524036, or sending us an email. We'll get
                 back to you within 24 hours with a detailed quote.
               </p>
             </div>

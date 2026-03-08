@@ -110,7 +110,7 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <Phone size={20} />
                 <a href="tel:+441234567890" className="hover:text-blue-400">
-                  +44 78026682398
+                  +44 7368524036
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -127,7 +127,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p>&copy; {new Date().getFullYear()} Dominion Cleaning Agency. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Dominion Cleaning Agency. All
+            rights reserved.
+          </p>
         </div>
       </div>
     </footer>

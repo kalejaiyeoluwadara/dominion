@@ -28,7 +28,7 @@ export default function Header() {
                 className="flex items-center text-xs md:text-sm gap-1 hover:text-blue-200"
               >
                 <Phone size={16} />
-                <span>+44 78026682398</span>
+                <span>+44 7368524036</span>
               </Link>
               <Link
                 href="mailto:admin@dominiondeepcleaning.com"
