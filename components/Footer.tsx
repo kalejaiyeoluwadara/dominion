@@ -114,7 +114,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                <Mail size={20} />
+                <Mail size={20} className="flex-shrink-0" />
                 <a
                   href="mailto:admin@dominiondeepcleaning.com"
                   className="hover:text-blue-400"
@@ -127,7 +127,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p>&copy; 2025 Dominion Cleaning Agency. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Dominion Cleaning Agency. All rights reserved.</p>
         </div>
       </div>
     </footer>

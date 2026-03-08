@@ -410,11 +410,11 @@ export default function BookingPage() {
                     <span>+44 78026682398</span>
                   </a>
                   <a
-                    href="mailto:bookings@dominioncleaning.co.uk"
+                    href="mailto:admin@dominiondeepcleaning.com"
                     className="flex items-center gap-3 text-gray-700 hover:text-blue-600"
                   >
                     <Mail size={20} className="text-blue-600" />
-                    <span>bookings@dominioncleaning.co.uk</span>
+                    <span>admin@dominiondeepcleaning.com</span>
                   </a>
                   <div className="flex items-start gap-3 text-gray-700">
                     <Clock
@@ -423,8 +423,7 @@ export default function BookingPage() {
                     />
                     <div>
                       <p className="font-semibold">Opening Hours</p>
-                      <p className="text-sm">Mon - Sat: 8:00 AM - 8:00 PM</p>
-                      <p className="text-sm">Sunday: 10:00 AM - 4:00 PM</p>
+                      <p className="text-sm">Mon - Fri: 8:30 AM - 5:00 PM</p>
                     </div>
                   </div>
                 </div>

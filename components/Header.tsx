@@ -57,7 +57,7 @@ export default function Header() {
             href="/"
             className="text-base md:text-2xl font-bold text-blue-900"
           >
-            DCA
+            DDC
           </Link>
 
           {/* Desktop Menu */}
